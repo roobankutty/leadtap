@@ -1,6 +1,3 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
 import "../assets/styles/property.css";
 
 function Services() {
