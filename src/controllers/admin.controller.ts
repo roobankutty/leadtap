@@ -23,25 +23,34 @@ export async function dashboard(req: Request, res: Response) {
 
   const now = new Date();
 
+    const today = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Kolkata",
+  }).format(new Date());
+
   const todayLeads = leads.filter((lead) => {
-    const leadDate = new Date(lead.createdAt);
+    const leadDate = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Kolkata",
+    }).format(new Date(lead.createdAt));
 
-    return (
-      leadDate.getDate() === now.getDate() &&
-      leadDate.getMonth() === now.getMonth() &&
-      leadDate.getFullYear() === now.getFullYear()
-    );
+    return leadDate === today;
   }).length;
 
 
-  const thisMonthLeads = leads.filter((lead) => {
-    const leadDate = new Date(lead.createdAt);
+  const currentMonth = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Kolkata",
+  year: "numeric",
+  month: "2-digit",
+}).format(new Date());
 
-    return (
-      leadDate.getMonth() === now.getMonth() &&
-      leadDate.getFullYear() === now.getFullYear()
-    );
-  }).length;
+const thisMonthLeads = leads.filter((lead) => {
+  const leadMonth = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Kolkata",
+    year: "numeric",
+    month: "2-digit",
+  }).format(new Date(lead.createdAt));
+
+  return leadMonth === currentMonth;
+}).length;
 
 
   const recentLeads = [...leads]
