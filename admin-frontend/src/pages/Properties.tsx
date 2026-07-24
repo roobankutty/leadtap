@@ -163,7 +163,7 @@ export default function Properties() {
                   <td>
 
                     <a
-					  href={`${import.meta.env.VITE_PROPERTY_FRONTEND_URL}/properties/${property.slug}`}
+					  href={`https://leadtap-frontend-chi.vercel.app/properties/properties/${property.slug}`}
 					  target="_blank"
 					  rel="noopener noreferrer"
 					  className="btn btn-sm btn-primary"
