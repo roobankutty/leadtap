@@ -12,11 +12,30 @@ import StatCard from "../components/Dashboard/StatCard";
 export default function Dashboard() {
   const [dashboard, setDashboard] = useState<any>(null);
 
-  useEffect(() => {
-    axios
-      .get("https://leadtap-properties.onrender.com/api/admin/dashboard")
-      .then((res) => setDashboard(res.data));
-  }, []);
+useEffect(() => {
+
+  const token = localStorage.getItem("adminToken");
+
+  axios
+    .get(
+      "https://leadtap-properties.onrender.com/api/admin/dashboard",
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    )
+    .then((res) => {
+      setDashboard(res.data);
+    })
+    .catch((err) => {
+      console.error(
+        "Failed to load dashboard",
+        err
+      );
+    });
+
+}, []);
 
   if (!dashboard) {
     return (
