@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/settings";
+const API = "https://leadtap-properties.onrender.com/api/settings";
 
 export default function Settings() {
   const [settings, setSettings] = useState({

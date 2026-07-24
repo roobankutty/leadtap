@@ -14,7 +14,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/admin/dashboard")
+      .get("https://leadtap-properties.onrender.com/api/admin/dashboard")
       .then((res) => setDashboard(res.data));
   }, []);
 

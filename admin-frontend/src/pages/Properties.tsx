@@ -25,7 +25,7 @@ export default function Properties() {
       try {
 
         const response = await axios.get(
-          "http://localhost:5000/api/properties"
+          "https://leadtap-properties.onrender.com/api/properties"
         );
 
         setProperties(response.data.properties);

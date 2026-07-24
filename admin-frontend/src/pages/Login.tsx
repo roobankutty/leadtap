@@ -22,7 +22,7 @@ export default function Leads() {
       try {
 
         const response = await axios.get(
-          "http://localhost:5000/api/admin/leads"
+          "https://leadtap-properties.onrender.com/api/admin/leads"
         );
 
         setLeads(response.data.data);
