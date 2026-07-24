@@ -27,9 +27,11 @@ app.use((req, res, next) => {
   next();
 });*/
 // Middleware
-app.use("/api/auth", authRoutes);
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use("/api/auth", authRoutes);
 
 // Health Check
 app.get("/", (req, res) => {
