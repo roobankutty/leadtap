@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "createdAt": "2026-07-23T14:57:24.202Z",
+    "propertyId": 1,
+    "name": "John",
+    "email": "john@gmail.com",
+    "phone": "8956236598",
+    "message": "Test message from developer"
+  },
+  {
+    "id": 2,
+    "createdAt": "2026-07-23T14:57:43.886Z",
+    "propertyId": 1,
+    "name": "John",
+    "email": "john@gmail.com",
+    "phone": "8956236598",
+    "message": "Test message from developer"
+  },
+  {
+    "id": 3,
+    "createdAt": "2026-07-23T15:05:04.818Z",
+    "propertyId": 1,
+    "name": "Ruban",
+    "email": "ruban@gmail.com",
+    "phone": "8954623658",
+    "message": "Test Message from Developer"
+  },
+  {
+    "id": 4,
+    "createdAt": "2026-07-23T15:12:07.174Z",
+    "propertyId": 1,
+    "name": "Kate",
+    "email": "kate@gmail.com",
+    "phone": "8923564892",
+    "message": "hbhjbhbhjbjhbhbhjbjbhjbhjbhbhjbjhbhjbhjbj"
+  },
+  {
+    "id": 5,
+    "createdAt": "2026-07-23T15:14:15.120Z",
+    "propertyId": 1,
+    "name": "matt",
+    "email": "matt@gmail.com",
+    "phone": "9875698563",
+    "message": "hg jbjbnjknjknkjuvgvgvtyvvytvuybnknnkmkmklm"
+  },
+  {
+    "id": 6,
+    "createdAt": "2026-07-23T18:29:39.483Z",
+    "propertyId": 1,
+    "name": "ram",
+    "email": "ram@gmail.com",
+    "phone": "9856243569",
+    "message": "test from someone"
+  },
+  {
+    "id": 7,
+    "createdAt": "2026-07-23T21:33:07.368Z",
+    "propertyId": 1,
+    "name": "Vincent",
+    "email": "vins@gmail.com",
+    "phone": "9845659875",
+    "message": "Test Message with email"
+  },
+  {
+    "id": 8,
+    "createdAt": "2026-07-23T22:17:59.789Z",
+    "propertyId": 0,
+    "name": "Mark",
+    "email": "mark@gmail.com",
+    "phone": "9856235478",
+    "message": "Test mail from contact page"
+  }
+]

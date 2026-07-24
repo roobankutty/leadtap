@@ -1,0 +1,892 @@
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 19:06:13"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 19:06:13"}
+{"email":"rooban@gmail.com","level":"info","message":"New Lead Received","name":"Rooban Shanmugam","propertyId":1,"timestamp":"2026-07-22 19:09:49"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 19:31:46"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 19:31:46"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 19:34:32"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 19:34:32"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 19:35:03"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 19:35:03"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 19:41:11"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 19:41:11"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 19:41:36"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 19:41:36"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 20:02:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 20:02:18"}
+{"email":"johnn@gmail.com","level":"info","message":"New Lead Received","name":"John Shanmugam","propertyId":1,"timestamp":"2026-07-22 20:04:21"}
+{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"level":"error","message":"Failed to send lead notification email connect ECONNREFUSED 127.0.0.1:587","port":587,"stack":"Error: connect ECONNREFUSED 127.0.0.1:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1706:16)","syscall":"connect","timestamp":"2026-07-22 20:04:21"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 20:10:37"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 20:10:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 20:13:30"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 20:13:30"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 20:14:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 20:14:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 20:16:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 20:16:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 20:29:01"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 20:29:01"}
+{"email":"sam@gmail.com","level":"info","message":"New Lead Received","name":"Sam Immanuel","propertyId":1,"timestamp":"2026-07-22 20:30:08"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-22 20:30:13"}
+{"email":"roobanshanmugam@gmail.com","level":"info","message":"New Lead Received","name":"Sam Rooban","propertyId":1,"timestamp":"2026-07-22 20:32:12"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-22 20:32:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 21:47:49"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 21:47:49"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 21:55:31"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 21:55:31"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 21:55:50"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 21:55:50"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 22:00:31"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 22:00:31"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 22:01:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 22:01:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 22:01:36"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 22:01:36"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 22:12:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 22:12:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 22:14:40"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 22:14:40"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:30:39"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:30:39"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:32:33"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:32:33"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:33:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:33:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:34:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:34:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:39:58"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:39:58"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:39:58"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:39:58"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:42:22"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:42:22"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:42:22"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:42:22"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:46:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:46:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:46:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:46:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:47:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:47:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-22 23:47:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-22 23:47:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:04:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:04:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:04:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:04:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:11:50"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:11:50"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:11:50"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:11:50"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:12:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:12:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:12:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:12:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:12:23"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:12:23"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:12:23"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:12:23"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:12:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:12:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:12:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:12:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:11"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:11"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:12"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:12"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:25"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:25"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:25"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:25"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:55"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:13:55"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:55"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:13:55"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:18:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:18:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:18:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:18:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:19:43"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:19:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:33:20"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:33:20"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:33:20"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:33:20"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:33:29"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:33:29"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:39:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:39:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:39:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:39:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:39:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:39:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:40:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:40:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:40:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:40:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:40:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:40:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:47:16"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:47:16"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:50:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:50:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:50:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:50:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 00:50:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 00:50:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:17:02"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:17:02"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:17:02"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:17:02"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:17:03"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:17:03"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:37:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:37:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:37:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:37:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:37:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:37:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:47:40"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:47:40"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:47:40"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:47:40"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:47:40"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:47:40"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:50:37"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:50:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:50:37"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:50:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:50:37"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:50:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:50:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:50:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:50:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:50:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:50:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:50:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:51:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:51:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:51:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:51:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:51:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:51:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:51:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:52:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:52:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:52:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:52:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:52:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:52:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:56:36"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:56:36"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:56:36"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:56:36"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:56:37"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:56:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 01:56:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 01:56:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:00:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:00:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:00:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:00:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:00:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:00:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:00:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:01:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:01:44"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:01:44"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:01:44"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:01:44"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:12"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:12"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:12"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:12"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:13"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:13"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:13"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:13"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:02:55"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:02:55"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:03:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:03:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:03:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:03:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:03:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:03:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:03:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:03:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:04:02"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:04:02"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:04:02"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:04:02"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:04:02"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:04:02"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:05:00"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:05:00"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:05:00"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:05:00"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:05:01"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:05:01"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:15:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:15:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:20:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:20:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:20:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:20:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:20:25"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:20:25"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:20:25"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:20:25"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 02:21:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 02:21:14"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:19:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:19:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:25:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:27:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:27:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:27:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:27:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:27:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:27:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 12:27:11"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 12:27:11"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 14:55:58"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 14:55:58"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 14:58:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 14:58:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:06:40"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:06:40"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:06:41"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:06:41"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:06:53"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:06:53"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:06:53"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:06:53"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:07:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:07:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:07:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:07:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:09:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:09:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:09:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:09:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:09:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:09:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:09:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:09:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:09:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:09:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:09:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:09:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:17:58"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:17:58"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:17:58"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:17:58"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:18:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:18:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:34:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:34:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:34:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:34:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:34:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:34:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 15:47:11"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 15:47:11"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 16:11:33"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 16:11:33"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 16:11:33"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 16:11:33"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 16:11:33"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 16:11:33"}
+{"email":"mat@gmail.com","level":"info","message":"New Lead Received","name":"Mat","propertyId":1,"timestamp":"2026-07-23 16:38:21"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-23 16:38:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 16:42:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 16:42:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 16:42:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 16:42:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 16:42:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 16:42:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 17:05:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 17:05:14"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 17:05:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 17:05:14"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 17:05:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 17:05:14"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 17:42:38"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 17:44:41"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 17:44:42"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 17:44:43"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 17:44:43"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 17:44:44"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 18:00:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 18:00:26"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:00:38"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 18:04:28"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 18:04:28"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:04:34"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:04:35"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 18:04:48"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 18:08:31"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 18:08:31"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 18:08:49"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 18:08:51"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:08:53"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 18:13:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 18:13:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 18:30:49"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 18:30:49"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 18:42:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 18:42:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 18:49:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 18:49:14"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:50:11"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:50:11"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:50:35"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:50:35"}
+{"level":"info","message":"GET /api/admin/dashboard","timestamp":"2026-07-23 18:51:13"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 18:52:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:00:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:00:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:01:30"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:01:30"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:40"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:41"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:41"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:41"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:42"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:42"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:42"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:01:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:03:53"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:03:53"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:03:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:03:59"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:05:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:07:45"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:07:45"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:07:51"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:07:51"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:56"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:57"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:57"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:58"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:58"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:58"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:58"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:59"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:59"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:59"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:07:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:08:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:08:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:08:32"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:08:32"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:08:36"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:08:36"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:08:37"}
+{"level":"info","message":"GET /api/admin/test","timestamp":"2026-07-23 19:08:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:10:01"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:10:01"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:10:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:10:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:16:21"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:16:21"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:16:42"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:16:42"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:23:33"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:23:33"}
+{"level":"info","message":"GET /api/leads","timestamp":"2026-07-23 19:24:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:25:58"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:25:58"}
+{"level":"info","message":"GET /api/leads","timestamp":"2026-07-23 19:26:13"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:32:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:32:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:32:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:32:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:33:22"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:33:22"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:34:05"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:34:05"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:36:23"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:36:23"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:37:17"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:37:17"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:37:37"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:37:37"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:52:45"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:52:45"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:53:27"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:53:27"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:53:53"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:53:53"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 19:59:28"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 19:59:28"}
+{"email":"josh@mail.com","level":"info","message":"New Lead Received","name":"Josh","propertyId":1,"timestamp":"2026-07-23 20:01:01"}
+{"code":"ENOENT","errno":-4058,"level":"error","message":"Failed to send lead notification email ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'","path":"D:\\Projects\\property-backend\\data\\leads.json","stack":"Error: ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'\n    at async open (node:internal/fs/promises:640:25)\n    at async Object.writeFile (node:internal/fs/promises:1260:14)\n    at async saveLead (D:\\Projects\\property-backend\\src\\services\\leadStorage.service.ts:40:3)\n    at async createLead (D:\\Projects\\property-backend\\src\\services\\lead.service.ts:23:4)\n    at async D:\\Projects\\property-backend\\src\\controllers\\lead.controller.ts:8:20","syscall":"open","timestamp":"2026-07-23 20:01:01"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:04:28"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:04:28"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:05:30"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:05:30"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:05:53"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:05:53"}
+{"email":"john@gmail.com","level":"info","message":"New Lead Received","name":"John","propertyId":1,"timestamp":"2026-07-23 20:07:46"}
+{"code":"ENOENT","errno":-4058,"level":"error","message":"Failed to process lead ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'","path":"D:\\Projects\\property-backend\\data\\leads.json","stack":"Error: ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'\n    at async open (node:internal/fs/promises:640:25)\n    at async Object.writeFile (node:internal/fs/promises:1260:14)\n    at async saveLead (D:\\Projects\\property-backend\\src\\services\\leadStorage.service.ts:42:3)\n    at async createLead (D:\\Projects\\property-backend\\src\\services\\lead.service.ts:23:23)\n    at async D:\\Projects\\property-backend\\src\\controllers\\lead.controller.ts:8:20","syscall":"open","timestamp":"2026-07-23 20:07:46"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:11:11"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:11:11"}
+{"email":"ruban@mail.com","level":"info","message":"New Lead Received","name":"Ruban","propertyId":1,"timestamp":"2026-07-23 20:11:48"}
+{"code":"ENOENT","errno":-4058,"level":"error","message":"Failed to process lead ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'","path":"D:\\Projects\\property-backend\\data\\leads.json","stack":"Error: ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'\n    at async open (node:internal/fs/promises:640:25)\n    at async Object.writeFile (node:internal/fs/promises:1260:14)\n    at async saveLead (D:\\Projects\\property-backend\\src\\services\\leadStorage.service.ts:42:3)\n    at async createLead (D:\\Projects\\property-backend\\src\\services\\lead.service.ts:23:23)\n    at async D:\\Projects\\property-backend\\src\\controllers\\lead.controller.ts:8:20","syscall":"open","timestamp":"2026-07-23 20:11:48"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:14:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:14:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:14:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:14:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:14:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:14:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:15:23"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:15:23"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:15:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:15:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:15:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:15:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:15:45"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:15:45"}
+{"email":"john@mail.com","level":"info","message":"New Lead Received","name":"john","propertyId":1,"timestamp":"2026-07-23 20:16:34"}
+{"code":"ENOENT","errno":-4058,"level":"error","message":"Failed to process lead ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'","path":"D:\\Projects\\property-backend\\data\\leads.json","stack":"Error: ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'\n    at async open (node:internal/fs/promises:640:25)\n    at async Object.writeFile (node:internal/fs/promises:1260:14)\n    at async saveLead (D:\\Projects\\property-backend\\src\\services\\leadStorage.service.ts:42:3)\n    at async createLead (D:\\Projects\\property-backend\\src\\services\\lead.service.ts:25:23)\n    at async D:\\Projects\\property-backend\\src\\controllers\\lead.controller.ts:8:20","syscall":"open","timestamp":"2026-07-23 20:16:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:22:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:22:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:22:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:22:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:22:55"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:22:55"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:23:13"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:23:13"}
+{"email":"john@mail.com","level":"info","message":"New Lead Received","name":"jogn","propertyId":1,"timestamp":"2026-07-23 20:24:07"}
+{"code":"ENOENT","errno":-4058,"level":"error","message":"Failed to process lead ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'","path":"D:\\Projects\\property-backend\\data\\leads.json","stack":"Error: ENOENT: no such file or directory, open 'D:\\Projects\\property-backend\\data\\leads.json'\n    at async open (node:internal/fs/promises:640:25)\n    at async Object.writeFile (node:internal/fs/promises:1260:14)\n    at async saveLead (D:\\Projects\\property-backend\\src\\services\\leadStorage.service.ts:42:3)\n    at async createLead (D:\\Projects\\property-backend\\src\\services\\lead.service.ts:25:23)\n    at async D:\\Projects\\property-backend\\src\\controllers\\lead.controller.ts:11:20","syscall":"open","timestamp":"2026-07-23 20:24:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:26:31"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:26:31"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:26:31"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:26:31"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:26:42"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:26:42"}
+{"email":"john@gmail.com","level":"info","message":"New Lead Received","name":"John","propertyId":1,"timestamp":"2026-07-23 20:27:24"}
+{"createdAt":"2026-07-23T14:57:24.202Z","email":"john@gmail.com","id":1,"level":"info","message":"Lead saved successfully Test message from developer","name":"John","phone":"8956236598","propertyId":1,"timestamp":"2026-07-23 20:27:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:27:36"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:27:36"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:27:36"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:27:36"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:27:36"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:27:36"}
+{"email":"john@gmail.com","level":"info","message":"New Lead Received","name":"John","propertyId":1,"timestamp":"2026-07-23 20:27:43"}
+{"createdAt":"2026-07-23T14:57:43.886Z","email":"john@gmail.com","id":2,"level":"info","message":"Lead saved successfully Test message from developer","name":"John","phone":"8956236598","propertyId":1,"timestamp":"2026-07-23 20:27:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:27:55"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:27:55"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:27:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:27:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:27:56"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:27:56"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:32:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:32:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:32:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:32:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:32:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:32:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:33:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:33:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:33:59"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:33:59"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:34:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:34:06"}
+{"email":"ruban@gmail.com","level":"info","message":"New Lead Received","name":"Ruban","propertyId":1,"timestamp":"2026-07-23 20:35:04"}
+{"createdAt":"2026-07-23T15:05:04.818Z","email":"ruban@gmail.com","id":3,"level":"info","message":"Lead saved successfully Test Message from Developer","name":"Ruban","phone":"8954623658","propertyId":1,"timestamp":"2026-07-23 20:35:04"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-23 20:35:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:35:17"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:35:17"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:35:17"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:35:17"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:35:17"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:35:17"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2026-07-23 20:35:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:39:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:39:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:39:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:39:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:39:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:39:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:39:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:39:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:39:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:39:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:39:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:39:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:40:29"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:40:29"}
+{"email":"kate@gmail.com","level":"info","message":"New Lead Received","name":"Kate","propertyId":1,"timestamp":"2026-07-23 20:42:07"}
+{"createdAt":"2026-07-23T15:12:07.174Z","email":"kate@gmail.com","id":4,"level":"info","message":"Lead saved successfully hbhjbhbhjbjhbhbhjbjbhjbhjbhbhjbjhbhjbhjbj","name":"Kate","phone":"8923564892","propertyId":1,"timestamp":"2026-07-23 20:42:07"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-23 20:42:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:42:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:42:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:42:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:42:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:42:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:42:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:43:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:43:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:43:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:43:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:43:23"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:43:23"}
+{"email":"matt@gmail.com","level":"info","message":"New Lead Received","name":"matt","propertyId":1,"timestamp":"2026-07-23 20:44:15"}
+{"createdAt":"2026-07-23T15:14:15.120Z","email":"matt@gmail.com","id":5,"level":"info","message":"Lead saved successfully hg jbjbnjknjknkjuvgvgvtyvvytvuybnknnkmkmklm","name":"matt","phone":"9875698563","propertyId":1,"timestamp":"2026-07-23 20:44:15"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:44:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:44:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:44:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:44:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:44:26"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:44:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:44:50"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:44:50"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:44:51"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:44:51"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 20:44:51"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 20:44:51"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:09:43"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:09:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:09:43"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:09:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:10:11"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:10:11"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:53:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:53:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:53:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:53:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:53:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:53:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:53:43"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:53:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:53:43"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:53:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:53:43"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:53:43"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:54:39"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:54:39"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:54:39"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:54:39"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:54:40"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:54:40"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:55:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:55:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:55:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:55:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:55:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:55:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:55:48"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:55:48"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:55:49"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:55:49"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:55:49"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:55:49"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:56:53"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:56:53"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:56:53"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:56:53"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:56:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:56:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:57:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:57:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:57:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:57:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:57:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:57:35"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:58:00"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:58:00"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:58:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:58:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:58:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:58:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:58:11"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:58:11"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:58:46"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:58:46"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:58:46"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:58:46"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:58:46"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:58:46"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:59:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:59:14"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:59:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:59:14"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 21:59:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 21:59:14"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 21:59:39"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:05:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:05:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:05:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:05:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:05:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:05:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:06:00"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:06:00"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:06:02"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:06:03"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:06:03"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:06:04"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:06:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:07:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:07:24"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:07:24"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:07:25"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:07:25"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:07:25"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:07:30"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:07:30"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:07:58"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:07:58"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:09:03"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:09:03"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:09:03"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:09:03"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:09:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:09:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:09:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:09:10"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:09:15"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:09:16"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:09:17"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:09:17"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:09:17"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:09:18"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:09:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:10:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:10:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:10:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:10:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:10:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:10:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:10:35"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:10:35"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:10:42"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:10:45"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:10:45"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:10:46"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:10:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:13:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:13:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:13:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:13:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:13:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:13:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:13:05"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:13:05"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:14:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:14:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:14:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:14:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:14:10"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:14:10"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:14:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:14:19"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:15:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:18:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:18:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:18:18"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:18:18"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:18:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:18:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:18:23"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:18:23"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:19:31"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:20:44"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:20:44"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:20:44"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:20:44"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:20:44"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:20:44"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:21:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:21:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:24:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:24:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:24:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:24:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:24:09"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:24:09"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:24:21"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:24:21"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:25:17"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:27:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:27:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:27:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:27:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:27:19"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:27:19"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:29:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:29:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:29:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:29:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:29:54"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:29:54"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:30:00"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:30:00"}
+{"level":"info","message":"GET /api/settings/test","timestamp":"2026-07-23 22:30:45"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:35:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:35:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:35:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:35:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:35:34"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:35:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:37:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:37:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:37:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:37:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:37:07"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:37:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:37:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:37:14"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:41:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:41:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:41:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:41:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:41:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:41:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:42:03"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:42:03"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:42:03"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:42:03"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:42:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:42:04"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:42:15"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:42:15"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:42:20"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:45:28"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:45:28"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:45:28"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:45:28"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:45:29"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:45:29"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:45:29"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:45:29"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:46:05"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:46:05"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:46:05"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:46:05"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:46:06"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:46:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 22:46:12"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 22:46:12"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:48"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:49"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:49"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:49"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:50"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:50"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:50"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:50"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:50"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:51"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:51"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:51"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:51"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:51"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:52"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:52"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:52"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:52"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:53"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:53"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:53"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:53"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:53"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:54"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:54"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:54"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:54"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:54"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:55"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:55"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:55"}
+{"level":"info","message":"GET /api/settings","timestamp":"2026-07-23 22:46:55"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:18:43"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:18:44"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2026-07-23 23:19:01"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2026-07-23 23:35:06"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:35:55"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:35:55"}
+{"level":"info","message":"PUT /api/settings","timestamp":"2026-07-23 23:38:25"}
+{"level":"info","message":"PUT /api/settings","timestamp":"2026-07-23 23:43:34"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:45:51"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:45:51"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:46:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:46:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:50:49"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:50:49"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:52:27"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:52:27"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:52:47"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:52:47"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:53:23"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:53:23"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:56:46"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:56:46"}
+{"email":"ram@gmail.com","level":"info","message":"New Lead Received","name":"ram","propertyId":1,"timestamp":"2026-07-23 23:59:39"}
+{"createdAt":"2026-07-23T18:29:39.483Z","email":"ram@gmail.com","id":6,"level":"info","message":"Lead saved successfully test from someone","name":"ram","phone":"9856243569","propertyId":1,"timestamp":"2026-07-23 23:59:39"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-23 23:59:39"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-23 23:59:46"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-23 23:59:46"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-24 02:14:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-24 02:14:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-24 02:28:08"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-24 02:28:08"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-24 02:28:25"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-24 02:28:25"}
+{"email":"vins@gmail.com","level":"info","message":"New Lead Received","name":"Vincent","propertyId":1,"timestamp":"2026-07-24 03:03:07"}
+{"createdAt":"2026-07-23T21:33:07.368Z","email":"vins@gmail.com","id":7,"level":"info","message":"Lead saved successfully Test Message with email","name":"Vincent","phone":"9845659875","propertyId":1,"timestamp":"2026-07-24 03:03:07"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-24 03:03:07"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-24 03:03:14"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-24 03:03:14"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2026-07-24 03:36:11"}
+{"email":"mark@gmail.com","level":"info","message":"New Lead Received","name":"Mark","propertyId":0,"timestamp":"2026-07-24 03:47:59"}
+{"createdAt":"2026-07-23T22:17:59.789Z","email":"mark@gmail.com","id":8,"level":"info","message":"Lead saved successfully Test mail from contact page","name":"Mark","phone":"9856235478","propertyId":0,"timestamp":"2026-07-24 03:47:59"}
+{"level":"info","message":"Lead notification email sent successfully","timestamp":"2026-07-24 03:47:59"}
+{"level":"info","message":"POST /api/admin/login","timestamp":"2026-07-24 11:12:34"}
+{"level":"info","message":"POST /api/admin/login","timestamp":"2026-07-24 11:14:36"}
+{"level":"info","message":"POST /api/admin/login","timestamp":"2026-07-24 11:15:26"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-24 11:21:44"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-24 11:21:44"}
+{"level":"info","message":"GET /api/admin/login","timestamp":"2026-07-24 11:24:30"}
+{"level":"info","message":"🚀 Server started at http://localhost:5000","timestamp":"2026-07-24 11:27:45"}
+{"level":"info","message":"🌐 WordPress GraphQL: http://localhost/rooban/graphql","timestamp":"2026-07-24 11:27:45"}
