@@ -27,7 +27,13 @@ return (
   element={<Login />}
 />
 
-<Route element={<Layout/>}>
+<Route
+  element={
+    <ProtectedRoute>
+      <Layout />
+    </ProtectedRoute>
+  }
+>
 
 
 <Route
