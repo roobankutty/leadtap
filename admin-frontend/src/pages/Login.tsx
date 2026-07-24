@@ -25,9 +25,16 @@ export default function Login() {
         }
       );
 
-      localStorage.setItem("token", res.data.token);
+      if (res.data.success) {
 
-      navigate("/");
+        localStorage.setItem(
+          "adminToken",
+          res.data.token
+        );
+
+        navigate("/dashboard");
+
+      }
     } catch (err: any) {
       setError(
         err.response?.data?.message || "Login failed"
