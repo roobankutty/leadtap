@@ -134,7 +134,7 @@ return (
 
 				<div className="card-body">
 
-				<h3 className="mb-3">
+				<h3 className="mb-3 details-title">
 					Property Details
 				</h3>
 

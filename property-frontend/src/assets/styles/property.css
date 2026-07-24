@@ -11,7 +11,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top-header {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
+.details-title {
+  border-bottom: 1px solid #e7e7e799;
+    padding-bottom: 10px;
+}
 .property-card {
   border: 1px solid #ddd;
   border-radius: 10px;
