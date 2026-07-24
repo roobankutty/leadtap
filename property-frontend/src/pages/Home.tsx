@@ -62,10 +62,16 @@ function Home() {
 		setProperties(data.properties);
 		setTotalPages(data.totalPages);
 		
-	  } catch (err) {
-		setError("Failed to load properties");
-		console.error(err);
-	  } finally {
+	  } catch (err: any) {
+    console.error("API Error:", err);
+    console.error("Response:", err.response);
+    console.error("Data:", err.response?.data);
+
+    setError(
+      err.response?.data?.message ||
+      err.message ||
+      "Failed to load properties"
+    ) finally {
 		setLoading(false);
 	  }
 	}
