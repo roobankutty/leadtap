@@ -1,142 +1,107 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-interface Lead {
-  id: number;
-  propertyId: number;
-  name: string;
-  email: string;
-  phone: string;
-  message: string;
-  createdAt: string;
-}
+export default function Login() {
+  const navigate = useNavigate();
 
-export default function Leads() {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const [leads, setLeads] = useState<Lead[]>([]);
-  const [loading, setLoading] = useState(true);
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
 
-  useEffect(() => {
+    setLoading(true);
+    setError("");
 
-    async function fetchLeads() {
-      try {
+    try {
+      const res = await axios.post(
+        "https://leadtap-properties.onrender.com/api/auth/login",
+        {
+          username,
+          password,
+        }
+      );
 
-        const response = await axios.get(
-          "https://leadtap-properties.onrender.com/api/admin/leads"
-        );
+      localStorage.setItem("token", res.data.token);
 
-        setLeads(response.data.data);
-
-      } catch (error) {
-
-        console.error("Failed to load leads", error);
-
-      } finally {
-
-        setLoading(false);
-
-      }
+      navigate("/");
+    } catch (err: any) {
+      setError(
+        err.response?.data?.message || "Login failed"
+      );
+    } finally {
+      setLoading(false);
     }
-
-    fetchLeads();
-
-  }, []);
-
-
-  if (loading) {
-    return <p>Loading leads...</p>;
   }
 
+  return (
+    <div className="container py-5">
+      <div className="row justify-content-center">
 
-return (
-  <div className="container-fluid mt-4">
+        <div className="col-md-4">
 
-    <div className="card shadow">
+          <div className="card shadow">
 
-      <div className="card-header">
-        <h4 className="mb-0">Leads</h4>
-      </div>
+            <div className="card-body">
 
+              <h3 className="text-center mb-4">
+                Admin Login
+              </h3>
 
-      <div className="card-body">
+              {error && (
+                <div className="alert alert-danger">
+                  {error}
+                </div>
+              )}
 
-        {leads.length === 0 ? (
+              <form onSubmit={handleSubmit}>
 
-          <div className="alert alert-info">
-            No leads found
-          </div>
+                <div className="mb-3">
+                  <label>Username</label>
 
-        ) : (
+                  <input
+                    className="form-control"
+                    value={username}
+                    onChange={(e) =>
+                      setUsername(e.target.value)
+                    }
+                  />
+                </div>
 
-          <div className="table-responsive">
+                <div className="mb-3">
+                  <label>Password</label>
 
-            <table className="table table-striped table-hover table-bordered align-middle">
+                  <input
+                    type="password"
+                    className="form-control"
+                    value={password}
+                    onChange={(e) =>
+                      setPassword(e.target.value)
+                    }
+                  />
+                </div>
 
-              <thead className="table-dark">
+                <button
+                  className="btn btn-primary w-100"
+                  disabled={loading}
+                >
+                  {loading
+                    ? "Logging in..."
+                    : "Login"}
+                </button>
 
-                <tr>
-                  <th>ID</th>
-                  <th>Property</th>
-                  <th>Name</th>
-                  <th>Email</th>
-                  <th>Phone</th>
-                  <th>Message</th>
-                  <th>Date</th>
-                </tr>
+              </form>
 
-              </thead>
-
-
-              <tbody>
-
-              {leads.map((lead) => (
-
-                <tr key={lead.id}>
-
-                  <td>{lead.id}</td>
-
-                  <td>
-                    #{lead.propertyId}
-                  </td>
-
-                  <td>
-                    {lead.name}
-                  </td>
-
-                  <td>
-                    {lead.email}
-                  </td>
-
-                  <td>
-                    {lead.phone}
-                  </td>
-
-                  <td>
-                    {lead.message}
-                  </td>
-
-                  <td>
-                    {new Date(
-                      lead.createdAt
-                    ).toLocaleDateString()}
-                  </td>
-
-                </tr>
-
-              ))}
-
-              </tbody>
-
-            </table>
+            </div>
 
           </div>
 
-        )}
+        </div>
 
       </div>
-
     </div>
-
-  </div>
-);
+  );
 }

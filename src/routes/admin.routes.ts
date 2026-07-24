@@ -2,10 +2,11 @@ import express from "express";
 import {
   fetchLeads,
   dashboard,
-  login,
   getSettings,
   updateSettings,
 } from "../controllers/admin.controller";
+import { verifyToken } from "../middleware/auth.middleware";
+import { login } from "../controllers/auth.controller";
 
 const router = express.Router();
 /*router.get("/test", (req, res) => {
@@ -13,11 +14,11 @@ const router = express.Router();
 });*/
 router.post("/login", login);
 
-router.get("/settings", getSettings);
+router.get("/settings", verifyToken, getSettings);
 
-router.put("/settings", updateSettings);
+router.put("/settings", verifyToken, updateSettings);
 
-router.get("/dashboard", dashboard);
-router.get("/leads", fetchLeads);
+router.get("/dashboard", verifyToken, dashboard);
+router.get("/leads", verifyToken,fetchLeads);
 
 export default router;

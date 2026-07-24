@@ -4,7 +4,7 @@ Routes,
 Route
 } from "react-router-dom";
 
-
+import Login from "./pages/Login";
 import Layout from "./components/Layout";
 
 import Dashboard from "./pages/Dashboard";
@@ -21,6 +21,10 @@ return (
 
 <Routes>
 
+<Route
+  path="/login"
+  element={<Login />}
+/>
 
 <Route element={<Layout/>}>
 

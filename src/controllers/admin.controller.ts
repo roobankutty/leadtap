@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { getAllLeads } from "../services/leadStorage.service";
 import { getProperties } from "../services/wordpress.service";
-import { getAdmin, saveAdmin } from "../services/admin.service";
+import { getAdmin, } from "../services/auth.service";
 
 // GET /api/admin/leads
 export async function fetchLeads(req: Request, res: Response) {
@@ -14,16 +14,12 @@ export async function fetchLeads(req: Request, res: Response) {
   });
 }
 
-
 // GET /api/admin/dashboard
 export async function dashboard(req: Request, res: Response) {
   const leads = await getAllLeads();
-
   const propertyResult = await getProperties();
 
-  const now = new Date();
-
-    const today = new Intl.DateTimeFormat("en-CA", {
+  const today = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Kolkata",
   }).format(new Date());
 
@@ -35,23 +31,21 @@ export async function dashboard(req: Request, res: Response) {
     return leadDate === today;
   }).length;
 
-
   const currentMonth = new Intl.DateTimeFormat("en-CA", {
-  timeZone: "Asia/Kolkata",
-  year: "numeric",
-  month: "2-digit",
-}).format(new Date());
-
-const thisMonthLeads = leads.filter((lead) => {
-  const leadMonth = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Kolkata",
     year: "numeric",
     month: "2-digit",
-  }).format(new Date(lead.createdAt));
+  }).format(new Date());
 
-  return leadMonth === currentMonth;
-}).length;
+  const thisMonthLeads = leads.filter((lead) => {
+    const leadMonth = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Kolkata",
+      year: "numeric",
+      month: "2-digit",
+    }).format(new Date(lead.createdAt));
 
+    return leadMonth === currentMonth;
+  }).length;
 
   const recentLeads = [...leads]
     .sort(
@@ -61,43 +55,18 @@ const thisMonthLeads = leads.filter((lead) => {
     )
     .slice(0, 5);
 
-
   res.json({
     totalProperties: propertyResult.total || 0,
     totalLeads: leads.length || 0,
-    todayLeads: todayLeads || 0,
-    thisMonthLeads: thisMonthLeads || 0,
+    todayLeads,
+    thisMonthLeads,
     recentLeads,
-  });
-}
-
-// POST /api/admin/login
-export async function login(req: Request, res: Response) {
-  const { username, password } = req.body;
-
-  const admin = getAdmin();
-
-  if (
-    username === admin.username &&
-    password === admin.password
-  ) {
-    return res.json({
-      success: true,
-      user: {
-        username: admin.username,
-      },
-    });
-  }
-
-  return res.status(401).json({
-    success: false,
-    message: "Invalid username or password",
   });
 }
 
 // GET /api/admin/settings
 export async function getSettings(req: Request, res: Response) {
-  const admin = getAdmin();
+  const admin = await getAdmin();
 
   res.json({
     username: admin.username,
@@ -108,10 +77,10 @@ export async function getSettings(req: Request, res: Response) {
 export async function updateSettings(req: Request, res: Response) {
   const { username, password } = req.body;
 
-  saveAdmin({
+  /*await saveAdmin({
     username,
     password,
-  });
+  });*/
 
   res.json({
     success: true,
