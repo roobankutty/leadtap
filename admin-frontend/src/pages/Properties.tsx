@@ -163,7 +163,7 @@ export default function Properties() {
                   <td>
 
                     <a
-					  href={`https://leadtap-frontend-chi.vercel.app/properties/properties/${property.slug}`}
+					  href={`https://leadtap-frontend-chi.vercel.app/properties/${property.slug}`}
 					  target="_blank"
 					  rel="noopener noreferrer"
 					  className="btn btn-sm btn-primary"
