@@ -10,11 +10,13 @@ const options: swaggerJsdoc.Options = {
         "REST API for a Headless WordPress Property Platform built with Node.js, Express, TypeScript and WPGraphQL",
     },
     servers: [
-      {
-        url: "http://localhost:5000",
-        description: "Local Development Server",
-      },
-    ],
+    {
+      url:
+        process.env.NODE_ENV === "production"
+          ? "https://leadtap-properties.onrender.com"
+          : "http://localhost:5000",
+    },
+  ],
   },
 
   apis: ["./src/routes/*.ts"],
