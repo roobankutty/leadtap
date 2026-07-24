@@ -11,10 +11,7 @@ const options: swaggerJsdoc.Options = {
     },
     servers: [
     {
-      url:
-        process.env.NODE_ENV === "production"
-          ? "https://leadtap-properties.onrender.com"
-          : "http://localhost:5000",
+      url: "https://leadtap-properties.onrender.com",
     },
   ],
   },
