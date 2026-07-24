@@ -87,7 +87,7 @@ const PORT = process.env.PORT || 5000;
 
 // Start Server
 app.listen(PORT, () => {
-    logger.info(`🚀 Server started at http://localhost:${PORT}`);
+    logger.info(`🚀 Server started on port ${PORT}`);
     logger.info(`🌐 WordPress GraphQL: ${process.env.WORDPRESS_GRAPHQL}`);
 });
 
