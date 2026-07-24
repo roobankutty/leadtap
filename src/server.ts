@@ -8,6 +8,7 @@ import propertyRoutes from "./routes/property.routes";
 import taxonomyRoutes from "./routes/taxonomy.routes";
 import leadRoutes from "./routes/lead.routes";
 import webhookRoutes from "./routes/webhook.routes";
+import authRoutes from "./routes/auth.routes";
 import adminRoutes from "./routes/admin.routes";
 import settingsRoutes from "./routes/settings.routes";
 
@@ -26,6 +27,7 @@ app.use((req, res, next) => {
   next();
 });*/
 // Middleware
+app.use("/api/auth", authRoutes);
 app.use(cors());
 app.use(express.json());
 
