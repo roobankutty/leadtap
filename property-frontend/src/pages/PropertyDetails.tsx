@@ -62,7 +62,8 @@ function PropertyDetails() {
     setError("");
 
     try {
-
+console.log(property);
+console.log("Property ID:", property.id);
       const response = await submitLead({
         propertyId: property.id,
         name,
