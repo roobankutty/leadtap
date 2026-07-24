@@ -109,25 +109,47 @@ return (
 		<div className="row g-5">
 
 		  {/* Property Image */}
-		  <div className="col-lg-7">
 
-			<div className="card shadow-sm border-0">
+		<div className="col-lg-7">
 
-			  {property.image && (
+			{/* Featured Image */}
+			<div className="card shadow-sm border-0 mb-4">
+
+				{property.image && (
 				<img
-				  src={property.image}
-				  alt={property.imageAlt || property.title}
-				  className="card-img-top"
-				  style={{
+					src={property.image}
+					alt={property.imageAlt || property.title}
+					className="card-img-top"
+					style={{
 					height: "650px",
 					objectFit: "cover"
-				  }}
+					}}
 				/>
-			  )}
+				)}
 
 			</div>
 
-		  </div>
+			{/* Property Description */}
+			<div className="card shadow-sm border-0">
+
+				<div className="card-body">
+
+				<h3 className="mb-3">
+					Property Description
+				</h3>
+
+				<div
+					className="property-description"
+					dangerouslySetInnerHTML={{
+					__html: property.description,
+					}}
+				/>
+
+				</div>
+
+			</div>
+
+			</div>
 
 		  {/* Property Information */}
 		  <div className="col-lg-5">

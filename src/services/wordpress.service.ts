@@ -141,7 +141,8 @@ export async function getPropertyBySlug(slug: string) {
     id: property.propertyDetails.propertyId,
     title: property.title,
     slug: property.slug,
-
+    description: property.content,
+    
     // Featured Image
     image: property.featuredImage?.node?.sourceUrl ?? null,
     imageAlt: property.featuredImage?.node?.altText ?? null,

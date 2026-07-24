@@ -3,7 +3,8 @@ query PropertyBySlug($slug: ID!) {
   property(id: $slug, idType: SLUG) {
     title
     slug
-	
+    content 
+    
 	featuredImage {
 	  node {
 		sourceUrl

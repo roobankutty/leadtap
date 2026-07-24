@@ -3,6 +3,8 @@ export interface Property {
   title: string;
   slug: string;
 
+   description: string;
+
   image: string | null;
   imageAlt: string | null;
 
