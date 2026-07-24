@@ -5,6 +5,7 @@ Route
 } from "react-router-dom";
 
 import Login from "./pages/Login";
+import ProtectedRoute from "./components/ProtectedRoute";
 import Layout from "./components/Layout";
 
 import Dashboard from "./pages/Dashboard";
@@ -29,27 +30,42 @@ return (
 <Route element={<Layout/>}>
 
 
-<Route 
-path="/"
-element={<Dashboard/>}
+<Route
+  path="/dashboard"
+  element={
+    <ProtectedRoute>
+      <Dashboard />
+    </ProtectedRoute>
+  }
 />
 
 
 <Route
-path="/leads"
-element={<Leads/>}
+  path="/leads"
+  element={
+    <ProtectedRoute>
+      <Leads />
+    </ProtectedRoute>
+  }
 />
 
 
 <Route
-path="/properties"
-element={<Properties/>}
+  path="/properties"
+  element={
+    <ProtectedRoute>
+      <Properties />
+    </ProtectedRoute>
+  }
 />
 
-
 <Route
-path="/settings"
-element={<Settings/>}
+  path="/settings"
+  element={
+    <ProtectedRoute>
+      <Settings />
+    </ProtectedRoute>
+  }
 />
 
 
