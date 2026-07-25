@@ -46,6 +46,10 @@ export default function Layout() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-info text-decoration-none site-link"
+              style={{
+              color: "#ffffff",
+              padding: "10px",
+            }}
             >
               Visit Site
             </a>
