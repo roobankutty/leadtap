@@ -21,6 +21,15 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top-header {
 .contact-card:hover p, .contact-card:hover h4{
     color: #fff !important;
 }
+a.site-link {
+    color: #fff !important;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+a.site-link:hover {
+    text-decoration: underline !important;
+}
 .property-card {
   border: 1px solid #ddd;
   border-radius: 10px;

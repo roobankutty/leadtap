@@ -45,7 +45,7 @@ export default function Layout() {
               href="https://leadtap-frontend-chi.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-info text-decoration-none"
+              className="text-info text-decoration-none site-link"
             >
               Visit Site
             </a>
