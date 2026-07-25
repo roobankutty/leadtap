@@ -41,15 +41,14 @@ export default function Layout() {
           </Nav>
 
           <div className="d-flex gap-2">
-
-            <Button
-              variant="outline-info"
-              as="a"
+            <a
               href="https://leadtap-frontend-chi.vercel.app/"
               target="_blank"
+              rel="noopener noreferrer"
+              className="text-info text-decoration-none"
             >
               Visit Site
-            </Button>
+            </a>
 
             <Button 
               variant="outline-light"
