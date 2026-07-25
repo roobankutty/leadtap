@@ -103,7 +103,7 @@ return (
                   <td>{String(lead.id).slice(-2)}</td>
 
                   <td>
-                    #{lead.propertyId}
+                    LTP - {lead.propertyId}
                   </td>
 
                   <td>
