@@ -100,7 +100,7 @@ return (
 
                 <tr key={lead.id}>
 
-                  <td>{lead.id.slice(-2)}</td>
+                  <td>{String(lead.id).slice(-2)}</td>
 
                   <td>
                     #{lead.propertyId}
