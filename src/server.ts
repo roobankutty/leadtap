@@ -1,6 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
+import { MongoClient } from "mongodb"; // 1. Imported native MongoClient
 import swaggerUi from "swagger-ui-express";
 
 import swaggerSpec from "./config/swagger";
@@ -20,12 +21,6 @@ import compression from "compression";
 
 const app = express();
 
-/* console.log("SERVER FILE:", __filename);
-console.log("Admin routes imported:", adminRoutes);
-app.use((req, res, next) => {
-  console.log("REQUEST:", req.method, req.url);
-  next();
-});*/
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -33,31 +28,47 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/auth", authRoutes);
 
-// Health Check
+// MongoDB Client Initialization
+const MONGO_URI = process.env.MONGO_URI || "";
+let isDbConnected = false;
+
+if (!MONGO_URI) {
+    logger.error("❌ MONGO_URI is missing in environment variables!");
+} else {
+    const client = new MongoClient(MONGO_URI);
+    
+    // Connect to MongoDB Atlas
+    client.connect()
+        .then(() => {
+            isDbConnected = true;
+            logger.info("✅ Successfully connected to MongoDB Atlas!");
+        })
+        .catch((err: any) => {
+            isDbConnected = false;
+            logger.error(`❌ MongoDB Connection Error: ${err.message}`);
+        });
+}
+
+// Health Check Endpoint
 app.get("/", (req, res) => {
     res.status(200).json({
         success: true,
         service: "Property Backend API",
         version: "1.0.0",
         status: "Running",
+        database: isDbConnected ? "Connected" : "Disconnected",
         timestamp: new Date().toISOString()
     });
 });
-/* app.get("/", (req, res) => {
-  res.send("ROOBAN BACKEND TEST");
-});
-app.get("/api/admin/test", (req, res) => {
-  res.send("DIRECT SERVER TEST");
-});*/
 
 app.use(helmet());
-
 app.use(compression());
 
 // Routes
 app.use("/api/properties", propertyRoutes);
 app.use("/api/taxonomies", taxonomyRoutes);
 app.use("/api/leads", leadRoutes);
+
 console.log(
   "Settings routes:",
   settingsRoutes.stack.map((layer: any) => {
@@ -65,13 +76,8 @@ console.log(
   })
 );
 app.use("/api/settings", settingsRoutes);
-/*console.log("SETTINGS ROUTE MOUNTED");
-console.log("Settings route loaded");
-app.use("/api/admin", (req, res, next) => {
-  console.log("ADMIN REQUEST:", req.method, req.originalUrl);
-  next();
-});*/
 app.use("/api/admin", adminRoutes);
+
 // CRM Hooks
 app.use("/api/webhook", webhookRoutes);
 
