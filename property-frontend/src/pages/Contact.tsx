@@ -3,51 +3,72 @@ import { submitLead } from "../services/lead.service";
 import "../assets/styles/property.css";
 
 export default function Contact() {
-	
-	const [name, setName] = useState("");
-	const [email, setEmail] = useState("");
-	const [phone, setPhone] = useState("");
-	const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
 
-	const [submitting, setSubmitting] = useState(false);
-	const [success, setSuccess] = useState("");
-	const [error, setError] = useState("");
-
-	async function handleSubmit(e: React.FormEvent) {
-	  e.preventDefault();
-
-	  setSubmitting(true);
-	  setSuccess("");
-	  setError("");
-
-	  try {
-		const response = await submitLead({
-		  propertyId: 1,
-		  name,
-		  email,
-		  phone,
-		  message,
-		});
-
-		setSuccess(response.message || "Enquiry submitted successfully!");
-
-		setName("");
-		setEmail("");
-		setPhone("");
-		setMessage("");
-	  } catch (err: any) {
-		if (err.response?.status === 409) {
-		  setError("You have already submitted an enquiry recently.");
-		} else if (err.response?.data?.message) {
-		  setError(err.response.data.message);
-		} else {
-		  setError("Failed to submit enquiry.");
-		}
-	  } finally {
-		setSubmitting(false);
-	  }
-	}
+  const [submitting, setSubmitting] = useState(false);
+  const [success, setSuccess] = useState("");
+  const [error, setError] = useState("");
   
+  // State for tracking field-specific validation errors
+  const [fieldErrors, setFieldErrors] = useState<{ [key: string]: string }>({});
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+
+    setSubmitting(true);
+    setSuccess("");
+    setError("");
+    setFieldErrors({}); // Clear previous validation errors
+
+    try {
+      const response = await submitLead({
+        propertyId: 1, // Default ID for general site contact enquiries
+        name,
+        email,
+        phone,
+        message,
+      });
+
+      setSuccess(response.message || "Enquiry submitted successfully!");
+
+      // Reset form fields
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMessage("");
+    } catch (err: any) {
+      // 1. Capture field-level validation errors from backend
+      if (err.response?.data?.errors) {
+        const serverErrors = err.response.data.errors;
+
+        if (Array.isArray(serverErrors)) {
+          const formattedErrors: { [key: string]: string } = {};
+          serverErrors.forEach((errorObj: any) => {
+            const field = errorObj.param || errorObj.path || errorObj.field;
+            if (field) formattedErrors[field] = errorObj.msg || errorObj.message;
+          });
+          setFieldErrors(formattedErrors);
+        } else {
+          setFieldErrors(serverErrors);
+        }
+      }
+
+      // 2. Set general error message
+      if (err.response?.status === 409) {
+        setError("You have already submitted an enquiry recently.");
+      } else if (err.response?.data?.message) {
+        setError(err.response.data.message);
+      } else {
+        setError("Failed to submit enquiry. Please check your inputs.");
+      }
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
   return (
     <>
       {/* Hero */}
@@ -136,64 +157,94 @@ export default function Contact() {
                 <h4 className="mb-4">Quick Enquiry</h4>
 
                 {success && (
-				  <div className="alert alert-success">
-					{success}
-				  </div>
-				)}
+                  <div className="alert alert-success">{success}</div>
+                )}
 
-				{error && (
-				  <div className="alert alert-danger">
-					{error}
-				  </div>
-				)}
+                {error && (
+                  <div className="alert alert-danger">{error}</div>
+                )}
 
-				<form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} noValidate>
+                  {/* Name Input */}
+                  <div className="mb-3">
+                    <input
+                      type="text"
+                      className={`form-control ${fieldErrors.name ? "is-invalid" : ""}`}
+                      placeholder="Your Name"
+                      value={name}
+                      onChange={(e) => {
+                        setName(e.target.value);
+                        if (fieldErrors.name) setFieldErrors({ ...fieldErrors, name: "" });
+                      }}
+                      required
+                    />
+                    {fieldErrors.name && (
+                      <div className="invalid-feedback text-start">{fieldErrors.name}</div>
+                    )}
+                  </div>
 
-				  <input
-					type="text"
-					className="form-control mb-3"
-					placeholder="Your Name"
-					value={name}
-					onChange={(e) => setName(e.target.value)}
-					required
-				  />
+                  {/* Email Input */}
+                  <div className="mb-3">
+                    <input
+                      type="email"
+                      className={`form-control ${fieldErrors.email ? "is-invalid" : ""}`}
+                      placeholder="Email Address"
+                      value={email}
+                      onChange={(e) => {
+                        setEmail(e.target.value);
+                        if (fieldErrors.email) setFieldErrors({ ...fieldErrors, email: "" });
+                      }}
+                      required
+                    />
+                    {fieldErrors.email && (
+                      <div className="invalid-feedback text-start">{fieldErrors.email}</div>
+                    )}
+                  </div>
 
-				  <input
-					type="email"
-					className="form-control mb-3"
-					placeholder="Email Address"
-					value={email}
-					onChange={(e) => setEmail(e.target.value)}
-					required
-				  />
+                  {/* Phone Input */}
+                  <div className="mb-3">
+                    <input
+                      type="text"
+                      className={`form-control ${fieldErrors.phone ? "is-invalid" : ""}`}
+                      placeholder="Phone Number"
+                      value={phone}
+                      onChange={(e) => {
+                        setPhone(e.target.value);
+                        if (fieldErrors.phone) setFieldErrors({ ...fieldErrors, phone: "" });
+                      }}
+                      required
+                    />
+                    {fieldErrors.phone && (
+                      <div className="invalid-feedback text-start">{fieldErrors.phone}</div>
+                    )}
+                  </div>
 
-				  <input
-					type="text"
-					className="form-control mb-3"
-					placeholder="Phone Number"
-					value={phone}
-					onChange={(e) => setPhone(e.target.value)}
-					required
-				  />
+                  {/* Message Input */}
+                  <div className="mb-3">
+                    <textarea
+                      className={`form-control ${fieldErrors.message ? "is-invalid" : ""}`}
+                      rows={4}
+                      placeholder="Your Requirement"
+                      value={message}
+                      onChange={(e) => {
+                        setMessage(e.target.value);
+                        if (fieldErrors.message) setFieldErrors({ ...fieldErrors, message: "" });
+                      }}
+                      required
+                    />
+                    {fieldErrors.message && (
+                      <div className="invalid-feedback text-start">{fieldErrors.message}</div>
+                    )}
+                  </div>
 
-				  <textarea
-					className="form-control mb-3"
-					rows={4}
-					placeholder="Your Requirement"
-					value={message}
-					onChange={(e) => setMessage(e.target.value)}
-					required
-				  />
-
-				  <button
-					type="submit"
-					className="btn btn-primary w-100"
-					disabled={submitting}
-				  >
-					{submitting ? "Submitting..." : "Submit Enquiry"}
-				  </button>
-
-				</form>
+                  <button
+                    type="submit"
+                    className="btn btn-primary w-100"
+                    disabled={submitting}
+                  >
+                    {submitting ? "Submitting..." : "Submit Enquiry"}
+                  </button>
+                </form>
               </div>
             </div>
           </div>
