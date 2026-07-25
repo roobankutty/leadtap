@@ -21,8 +21,15 @@ export default function Leads() {
     async function fetchLeads() {
       try {
 
+        const token = localStorage.getItem("adminToken");
+
         const response = await axios.get(
-          "https://leadtap-properties.onrender.com/api/admin/leads"
+          "https://leadtap-properties.onrender.com/api/admin/leads",
+          {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          }
         );
 
         setLeads(response.data.data);
