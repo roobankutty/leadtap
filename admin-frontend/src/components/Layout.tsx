@@ -47,7 +47,7 @@ export default function Layout() {
               rel="noopener noreferrer"
               className="text-info text-decoration-none site-link"
               style={{
-              color: "#ffffff",
+              color: "#fff !important",
               padding: "10px",
             }}
             >
