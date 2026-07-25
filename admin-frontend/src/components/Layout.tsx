@@ -40,12 +40,25 @@ export default function Layout() {
 
           </Nav>
 
-          <Button 
-            variant="outline-light"
-            onClick={logout}
-          >
-            Logout
-          </Button>
+          <div className="d-flex gap-2">
+
+            <Button
+              variant="outline-info"
+              as="a"
+              href="https://leadtap-frontend-chi.vercel.app/"
+              target="_blank"
+            >
+              Visit Site
+            </Button>
+
+            <Button 
+              variant="outline-light"
+              onClick={logout}
+            >
+              Logout
+            </Button>
+
+          </div>
 
         </Container>
       </Navbar>
