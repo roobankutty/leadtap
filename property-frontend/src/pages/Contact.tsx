@@ -122,7 +122,7 @@ export default function Contact() {
                 options that match your requirements.
               </p>
 
-              <ul className="list-unstyled mt-4">
+              <ul className="list-unstyled mt-4 text-start">
                 <li className="mb-3">✅ Verified Property Listings</li>
                 <li className="mb-3">✅ Expert Property Guidance</li>
                 <li className="mb-3">✅ Home Loan Assistance</li>
