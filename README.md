@@ -84,33 +84,16 @@ The application retrieves property data from WordPress using WPGraphQL, exposes 
 ## Live URLs
 
 **Frontend**
-- https://your-frontend.vercel.app
+- https://leadtap-frontend-chi.vercel.app/
 
 **Admin Panel**
-- https://your-admin.vercel.app
+- https://leadtap-admin.vercel.app/login
 
 **Backend API**
-- https://leadtap-properties.onrender.com
+- https://leadtap-properties.onrender.com/
 
 **Swagger**
 - https://leadtap-properties.onrender.com/api-docs
-
----
-
-## Screenshots
-
-See the `screenshots/` folder for:
-- Homepage
-- Property Details
-- Search & Filters
-- WordPress Admin
-- ACF Configuration
-- API Testing
-- MongoDB Atlas
-- Admin Dashboard
-- Lead Management
-- Render Deployment
-- Vercel Deployment
 
 ---
 
