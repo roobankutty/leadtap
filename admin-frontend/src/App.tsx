@@ -3,7 +3,7 @@ BrowserRouter,
 Routes,
 Route
 } from "react-router-dom";
-
+import { Navigate } from "react-router-dom";
 import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Layout from "./components/Layout";
@@ -35,6 +35,12 @@ return (
   }
 >
 
+<Route
+    path="/"
+    element={
+      <Navigate to="/dashboard" replace />
+    }
+  />
 
 <Route
   path="/dashboard"
