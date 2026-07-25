@@ -67,7 +67,7 @@ export default function Contact() {
         <div className="container">
           <div className="row g-4">
             <div className="col-lg-4">
-              <div className="card shadow-sm border-0 h-100 p-4 text-center">
+              <div className="card contact-cardshadow-sm border-0 h-100 p-4 text-center">
                 <div className="display-4 mb-3">📍</div>
                 <h4>Our Office</h4>
                 <p className="text-muted mb-0">
@@ -81,7 +81,7 @@ export default function Contact() {
             </div>
 
             <div className="col-lg-4">
-              <div className="card shadow-sm border-0 h-100 p-4 text-center">
+              <div className="card contact-card shadow-sm border-0 h-100 p-4 text-center">
                 <div className="display-4 mb-3">📞</div>
                 <h4>Call Us</h4>
                 <p className="text-muted mb-0">
@@ -95,7 +95,7 @@ export default function Contact() {
             </div>
 
             <div className="col-lg-4">
-              <div className="card shadow-sm border-0 h-100 p-4 text-center">
+              <div className="card contact-card shadow-sm border-0 h-100 p-4 text-center">
                 <div className="display-4 mb-3">✉️</div>
                 <h4>Email Us</h4>
                 <p className="text-muted mb-0">
