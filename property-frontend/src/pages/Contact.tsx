@@ -11,21 +11,59 @@ export default function Contact() {
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState("");
   const [error, setError] = useState("");
-  
-  // State for tracking field-specific validation errors
+
+  // Track field-specific error messages
   const [fieldErrors, setFieldErrors] = useState<{ [key: string]: string }>({});
+
+  // Helper validation function
+  const validateForm = () => {
+    const errors: { [key: string]: string } = {};
+
+    if (!name.trim()) {
+      errors.name = "Full name is required.";
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.trim()) {
+      errors.email = "Email address is required.";
+    } else if (!emailRegex.test(email)) {
+      errors.email = "Please enter a valid email address (e.g., john@example.com).";
+    }
+
+    const phoneRegex = /^[0-9+\-\s()]{7,15}$/;
+    if (!phone.trim()) {
+      errors.phone = "Phone number is required.";
+    } else if (!phoneRegex.test(phone)) {
+      errors.phone = "Please enter a valid phone number (at least 7–10 digits).";
+    }
+
+    if (!message.trim()) {
+      errors.message = "Please enter your requirement message.";
+    }
+
+    return errors;
+  };
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
-    setSubmitting(true);
     setSuccess("");
     setError("");
-    setFieldErrors({}); // Clear previous validation errors
+    setFieldErrors({});
+
+    // 1. Run local frontend validation
+    const clientValidationErrors = validateForm();
+    if (Object.keys(clientValidationErrors).length > 0) {
+      setFieldErrors(clientValidationErrors);
+      setError("Please fix the highlighted errors below before submitting.");
+      return;
+    }
+
+    setSubmitting(true);
 
     try {
       const response = await submitLead({
-        propertyId: 1, // Default ID for general site contact enquiries
+        propertyId: 1, // Default ID for site-wide contact enquiries
         name,
         email,
         phone,
@@ -34,33 +72,35 @@ export default function Contact() {
 
       setSuccess(response.message || "Enquiry submitted successfully!");
 
-      // Reset form fields
+      // Clear form on success
       setName("");
       setEmail("");
       setPhone("");
       setMessage("");
     } catch (err: any) {
-      // 1. Capture field-level validation errors from backend
-      if (err.response?.data?.errors) {
-        const serverErrors = err.response.data.errors;
+      const responseData = err.response?.data;
 
-        if (Array.isArray(serverErrors)) {
-          const formattedErrors: { [key: string]: string } = {};
-          serverErrors.forEach((errorObj: any) => {
-            const field = errorObj.param || errorObj.path || errorObj.field;
-            if (field) formattedErrors[field] = errorObj.msg || errorObj.message;
-          });
-          setFieldErrors(formattedErrors);
-        } else {
-          setFieldErrors(serverErrors);
-        }
+      // 2. Parse field errors from backend array (express-validator / zod / joi)
+      if (responseData?.errors && Array.isArray(responseData.errors)) {
+        const extractedErrors: { [key: string]: string } = {};
+        responseData.errors.forEach((item: any) => {
+          const fieldName = item.path || item.param || item.field;
+          if (fieldName) {
+            extractedErrors[fieldName] = item.msg || item.message;
+          }
+        });
+        setFieldErrors(extractedErrors);
+      } 
+      // 3. Parse key-value object error format
+      else if (responseData?.errors && typeof responseData.errors === "object") {
+        setFieldErrors(responseData.errors);
       }
 
-      // 2. Set general error message
+      // 4. Set general alert message
       if (err.response?.status === 409) {
         setError("You have already submitted an enquiry recently.");
-      } else if (err.response?.data?.message) {
-        setError(err.response.data.message);
+      } else if (responseData?.message) {
+        setError(responseData.message);
       } else {
         setError("Failed to submit enquiry. Please check your inputs.");
       }
@@ -166,7 +206,7 @@ export default function Contact() {
 
                 <form onSubmit={handleSubmit} noValidate>
                   {/* Name Input */}
-                  <div className="mb-3">
+                  <div className="mb-3 text-start">
                     <input
                       type="text"
                       className={`form-control ${fieldErrors.name ? "is-invalid" : ""}`}
@@ -174,35 +214,41 @@ export default function Contact() {
                       value={name}
                       onChange={(e) => {
                         setName(e.target.value);
-                        if (fieldErrors.name) setFieldErrors({ ...fieldErrors, name: "" });
+                        if (fieldErrors.name) {
+                          setFieldErrors((prev) => ({ ...prev, name: "" }));
+                        }
                       }}
-                      required
                     />
                     {fieldErrors.name && (
-                      <div className="invalid-feedback text-start">{fieldErrors.name}</div>
+                      <div className="invalid-feedback d-block fw-semibold text-danger mt-1">
+                        {fieldErrors.name}
+                      </div>
                     )}
                   </div>
 
                   {/* Email Input */}
-                  <div className="mb-3">
+                  <div className="mb-3 text-start">
                     <input
-                      type="email"
+                      type="text"
                       className={`form-control ${fieldErrors.email ? "is-invalid" : ""}`}
                       placeholder="Email Address"
                       value={email}
                       onChange={(e) => {
                         setEmail(e.target.value);
-                        if (fieldErrors.email) setFieldErrors({ ...fieldErrors, email: "" });
+                        if (fieldErrors.email) {
+                          setFieldErrors((prev) => ({ ...prev, email: "" }));
+                        }
                       }}
-                      required
                     />
                     {fieldErrors.email && (
-                      <div className="invalid-feedback text-start">{fieldErrors.email}</div>
+                      <div className="invalid-feedback d-block fw-semibold text-danger mt-1">
+                        {fieldErrors.email}
+                      </div>
                     )}
                   </div>
 
                   {/* Phone Input */}
-                  <div className="mb-3">
+                  <div className="mb-3 text-start">
                     <input
                       type="text"
                       className={`form-control ${fieldErrors.phone ? "is-invalid" : ""}`}
@@ -210,17 +256,20 @@ export default function Contact() {
                       value={phone}
                       onChange={(e) => {
                         setPhone(e.target.value);
-                        if (fieldErrors.phone) setFieldErrors({ ...fieldErrors, phone: "" });
+                        if (fieldErrors.phone) {
+                          setFieldErrors((prev) => ({ ...prev, phone: "" }));
+                        }
                       }}
-                      required
                     />
                     {fieldErrors.phone && (
-                      <div className="invalid-feedback text-start">{fieldErrors.phone}</div>
+                      <div className="invalid-feedback d-block fw-semibold text-danger mt-1">
+                        {fieldErrors.phone}
+                      </div>
                     )}
                   </div>
 
                   {/* Message Input */}
-                  <div className="mb-3">
+                  <div className="mb-3 text-start">
                     <textarea
                       className={`form-control ${fieldErrors.message ? "is-invalid" : ""}`}
                       rows={4}
@@ -228,18 +277,21 @@ export default function Contact() {
                       value={message}
                       onChange={(e) => {
                         setMessage(e.target.value);
-                        if (fieldErrors.message) setFieldErrors({ ...fieldErrors, message: "" });
+                        if (fieldErrors.message) {
+                          setFieldErrors((prev) => ({ ...prev, message: "" }));
+                        }
                       }}
-                      required
                     />
                     {fieldErrors.message && (
-                      <div className="invalid-feedback text-start">{fieldErrors.message}</div>
+                      <div className="invalid-feedback d-block fw-semibold text-danger mt-1">
+                        {fieldErrors.message}
+                      </div>
                     )}
                   </div>
 
                   <button
                     type="submit"
-                    className="btn btn-primary w-100"
+                    className="btn btn-primary w-100 py-2 fw-bold"
                     disabled={submitting}
                   >
                     {submitting ? "Submitting..." : "Submit Enquiry"}
