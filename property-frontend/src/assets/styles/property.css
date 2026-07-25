@@ -18,7 +18,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.top-header {
 .contact-card:hover {
     background: #f76e0b;
 }
-.card:hover p, .card:hover h4{
+.contact-card:hover p, .contact-card:hover h4{
     color: #fff !important;
 }
 .property-card {
