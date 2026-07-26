@@ -98,19 +98,33 @@ console.log("MAIL_PORT:", process.env.MAIL_PORT);
 
 const PORT = process.env.PORT || 5000;
 
-connectRedis()
-  .then(async () => {
-    console.log("Redis Connected");
+async function startServer() {
+  try {
+    // Connect Redis
+    await connectRedis();
 
+    console.log("Redis Connected");
     console.log("isOpen:", redisClient.isOpen);
     console.log("isReady:", redisClient.isReady);
 
+    // Test Redis
     await redisClient.set("test", "hello");
     const value = await redisClient.get("test");
 
     console.log("Redis Value:", value);
-  })
-  .catch(console.error);
+
+    // Start Express
+    app.listen(PORT, () => {
+      logger.info(`🚀 Server started on port ${PORT}`);
+      logger.info(
+        `🌐 WordPress GraphQL: ${process.env.WORDPRESS_GRAPHQL}`
+      );
+    });
+  } catch (err) {
+    console.error("❌ Failed to start server:", err);
+    process.exit(1);
+  }
+}
 
 // Start Server
 app.listen(PORT, () => {
