@@ -906,3 +906,6 @@
 {"level":"info","message":"🌐 WordPress GraphQL: https://dev-leadtap-properties.pantheonsite.io/graphql","timestamp":"2026-07-27 00:07:58"}
 {"level":"info","message":"🚀 Server started on port 5000","timestamp":"2026-07-27 00:12:54"}
 {"level":"info","message":"🌐 WordPress GraphQL: https://dev-leadtap-properties.pantheonsite.io/graphql","timestamp":"2026-07-27 00:12:54"}
+{"level":"info","message":"🚀 Server started on port 5000","timestamp":"2026-07-27 00:19:04"}
+{"level":"info","message":"🌐 WordPress GraphQL: https://dev-leadtap-properties.pantheonsite.io/graphql","timestamp":"2026-07-27 00:19:04"}
+{"level":"error","message":"❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.rooban.jxilqbc.mongodb.net","timestamp":"2026-07-27 00:19:04"}
