@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { connectRedis } from "./config/redis";
+import redisRoutes from "./routes/redis.routes";
 import express from "express";
 import cors from "cors";
 import { MongoClient } from "mongodb"; // 1. Imported native MongoClient
@@ -27,6 +28,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use("/api/redis", redisRoutes);
 app.use("/api/auth", authRoutes);
 
 // MongoDB Client Initialization
