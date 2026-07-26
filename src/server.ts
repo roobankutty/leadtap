@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { connectRedis } from "./config/redis";
 import express from "express";
 import cors from "cors";
 import { MongoClient } from "mongodb"; // 1. Imported native MongoClient
@@ -94,6 +95,14 @@ console.log("MAIL_HOST:", process.env.MAIL_HOST);
 console.log("MAIL_PORT:", process.env.MAIL_PORT);
 
 const PORT = process.env.PORT || 5000;
+
+connectRedis()
+  .then(() => {
+    console.log("✅ Redis Connected");
+  })
+  .catch((err) => {
+    console.error("❌ Redis Connection Failed:", err);
+  });
 
 // Start Server
 app.listen(PORT, () => {
