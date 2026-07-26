@@ -127,10 +127,7 @@ async function startServer() {
 }
 
 // Start Server
-app.listen(PORT, () => {
-    logger.info(`🚀 Server started on port ${PORT}`);
-    logger.info(`🌐 WordPress GraphQL: ${process.env.WORDPRESS_GRAPHQL}`);
-});
+startServer();
 
 // Global Error Handler
 app.use(errorHandler);
