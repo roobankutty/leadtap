@@ -17,13 +17,15 @@ router.get("/test", async (req, res) => {
       success: true,
       value,
     });
-  } catch (error) {
-    console.error(error);
+  } catch (error: any) {
+    console.error("Redis Test Error:", error);
+
     res.status(500).json({
-      success: false,
-      error,
+        success: false,
+        message: error.message,
+        stack: error.stack, // remove this later in production
     });
-  }
+    }
 });
 
 export default router;
