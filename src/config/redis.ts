@@ -4,7 +4,7 @@ export const redisClient = createClient({
   socket: {
     host: process.env.REDIS_HOST,
     port: Number(process.env.REDIS_PORT),
-    tls: true, // <-- Required for Redis Cloud
+    //tls: true, // <-- Required for Redis Cloud
   },
   username: process.env.REDIS_USERNAME,
   password: process.env.REDIS_PASSWORD,
