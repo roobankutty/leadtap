@@ -29,6 +29,10 @@ The application retrieves property data from WordPress using WPGraphQL, exposes 
 - MySQL (WordPress)
 - MongoDB Atlas (Lead Storage)
 
+### Cache 
+- Redis Cache
+  - https://leadtap-properties.onrender.com/api/redis/test - Redis status
+    
 ### Authentication
 - JWT (JSON Web Token)
 
