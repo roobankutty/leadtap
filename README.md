@@ -82,6 +82,7 @@ The application retrieves property data from WordPress using WPGraphQL, exposes 
 | POST | `/api/webhook/crm` | CRM webhook |
 | GET | `/health` | Health check |
 | GET | `/api-docs` | Swagger documentation |
+| GET | `/api/redis/test` | Redis Cache |
 
 ---
 
