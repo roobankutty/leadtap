@@ -4,9 +4,18 @@ export const redisClient = createClient({
   socket: {
     host: process.env.REDIS_HOST,
     port: Number(process.env.REDIS_PORT),
+    tls: true, // <-- Required for Redis Cloud
   },
   username: process.env.REDIS_USERNAME,
   password: process.env.REDIS_PASSWORD,
+});
+
+redisClient.on("connect", () => {
+  console.log("🔄 Connecting to Redis...");
+});
+
+redisClient.on("ready", () => {
+  console.log("✅ Redis Ready");
 });
 
 redisClient.on("error", (err) => {
@@ -14,6 +23,7 @@ redisClient.on("error", (err) => {
 });
 
 export async function connectRedis() {
-  await redisClient.connect();
-  console.log("✅ Redis Connected");
+  if (!redisClient.isOpen) {
+    await redisClient.connect();
+  }
 }

@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { connectRedis } from "./config/redis";
+import { connectRedis, redisClient } from "./config/redis";
 import redisRoutes from "./routes/redis.routes";
 import express from "express";
 import cors from "cors";
@@ -99,12 +99,18 @@ console.log("MAIL_PORT:", process.env.MAIL_PORT);
 const PORT = process.env.PORT || 5000;
 
 connectRedis()
-  .then(() => {
-    console.log("✅ Redis Connected");
+  .then(async () => {
+    console.log("Redis Connected");
+
+    console.log("isOpen:", redisClient.isOpen);
+    console.log("isReady:", redisClient.isReady);
+
+    await redisClient.set("test", "hello");
+    const value = await redisClient.get("test");
+
+    console.log("Redis Value:", value);
   })
-  .catch((err) => {
-    console.error("❌ Redis Connection Failed:", err);
-  });
+  .catch(console.error);
 
 // Start Server
 app.listen(PORT, () => {
