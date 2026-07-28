@@ -1,44 +1,12 @@
-import dns from "dns";
-dns.setDefaultResultOrder("ipv4first");
+import { Resend } from "resend";
 
-import nodemailer from "nodemailer";
-
-const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  port: 465,
-  secure: true,
-  auth: {
-    user: process.env.MAIL_USER!,
-    pass: process.env.MAIL_PASS!,
-  },
-});
-console.log("SMTP SETTINGS:", {
-  host: "smtp.gmail.com",
-  port: 465,
-  secure: true,
-});
-
-transporter.verify((error) => {
-  if (error) {
-    console.error("GMAIL SMTP VERIFY ERROR:", error);
-  } else {
-    console.log("Gmail SMTP Server is ready");
-  }
-});
-
-console.log("GMAIL CONFIG:", {
-  user: process.env.MAIL_USER,
-  from: process.env.MAIL_FROM,
-  to: process.env.MAIL_TO,
-});
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function sendLeadNotification(lead: any) {
-  console.log("sendLeadNotification() called");
-
   try {
-    const info = await transporter.sendMail({
-      from: `"LeadTap Properties" <${process.env.MAIL_FROM}>`,
-      to: process.env.MAIL_TO,
+    const result = await resend.emails.send({
+      from: "LeadTap <onboarding@resend.dev>",
+      to: process.env.MAIL_TO!,
       subject: `New Property Enquiry - Property #${lead.propertyId}`,
       html: `
         <h2>New Property Enquiry</h2>
@@ -48,18 +16,22 @@ export async function sendLeadNotification(lead: any) {
             <td><strong>Property ID</strong></td>
             <td>${lead.propertyId}</td>
           </tr>
+
           <tr>
             <td><strong>Name</strong></td>
             <td>${lead.name}</td>
           </tr>
+
           <tr>
             <td><strong>Email</strong></td>
             <td>${lead.email}</td>
           </tr>
+
           <tr>
             <td><strong>Phone</strong></td>
             <td>${lead.phone}</td>
           </tr>
+
           <tr>
             <td><strong>Message</strong></td>
             <td>${lead.message}</td>
@@ -68,15 +40,11 @@ export async function sendLeadNotification(lead: any) {
       `,
     });
 
-    console.log("EMAIL SENT SUCCESSFULLY");
-    console.log("Accepted:", info.accepted);
-    console.log("Rejected:", info.rejected);
-    console.log("Response:", info.response);
-    console.log("Message ID:", info.messageId);
+    console.log("Email sent:", result);
 
-    return info;
+    return result;
   } catch (error) {
-    console.error("EMAIL SEND ERROR:", error);
+    console.error("Resend Error:", error);
     throw error;
   }
 }
