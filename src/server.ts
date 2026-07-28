@@ -5,6 +5,7 @@ import express from "express";
 import cors from "cors";
 import { MongoClient } from "mongodb"; // 1. Imported native MongoClient
 import swaggerUi from "swagger-ui-express";
+import mailTestRoutes from "./routes/mailTest.routes";
 
 import swaggerSpec from "./config/swagger";
 import propertyRoutes from "./routes/property.routes";
@@ -64,6 +65,7 @@ app.get("/", (req, res) => {
     });
 });
 
+app.use("/api/mail-test", mailTestRoutes);
 app.use(helmet());
 app.use(compression());
 
