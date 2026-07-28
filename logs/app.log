@@ -927,3 +927,6 @@
 {"level":"error","message":"❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.rooban.jxilqbc.mongodb.net","timestamp":"2026-07-28 23:44:39"}
 {"level":"info","message":"🚀 Server started on port 5000","timestamp":"2026-07-28 23:44:41"}
 {"level":"info","message":"🌐 WordPress GraphQL: https://dev-leadtap-properties.pantheonsite.io/graphql","timestamp":"2026-07-28 23:44:41"}
+{"level":"error","message":"❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.rooban.jxilqbc.mongodb.net","timestamp":"2026-07-28 23:53:23"}
+{"level":"info","message":"🚀 Server started on port 5000","timestamp":"2026-07-28 23:53:25"}
+{"level":"info","message":"🌐 WordPress GraphQL: https://dev-leadtap-properties.pantheonsite.io/graphql","timestamp":"2026-07-28 23:53:25"}

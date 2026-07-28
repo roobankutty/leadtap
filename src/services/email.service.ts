@@ -4,8 +4,8 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
 
   auth: {
-    user: process.env.GMAIL_USER!,
-    pass: process.env.GMAIL_APP_PASSWORD!,
+    user: process.env.MAIL_USER!,
+    pass: process.env.MAIL_PASS!,
   },
 
   connectionTimeout: 10000,
@@ -24,8 +24,8 @@ transporter.verify((error, success) => {
 
 
 console.log("GMAIL CONFIG:", {
-  user: process.env.GMAIL_USER,
-  to: process.env.NOTIFICATION_EMAIL,
+  user: process.env.MAIL_USER,
+  to: process.env.MAIL_TO,
 });
 
 
