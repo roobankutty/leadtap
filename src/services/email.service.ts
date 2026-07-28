@@ -29,9 +29,17 @@ console.log("SMTP CONFIG:", {
   user: process.env.MAIL_USER,
 });
 
+console.log("MAIL_USER:", process.env.MAIL_USER);
+console.log("MAIL_FROM:", process.env.MAIL_FROM);
+console.log("MAIL_TO:", process.env.MAIL_TO);
+
 export async function sendLeadNotification(lead: any) {
 
+  console.log("sendLeadNotification() called");
+
   try {
+
+    console.log("Before sendMail()");
 
     const info = await transporter.sendMail({
       from: process.env.MAIL_FROM,
@@ -69,15 +77,15 @@ export async function sendLeadNotification(lead: any) {
       `,
     });
 
-    console.log("EMAIL SENT:", info.messageId);
+    // 👇 Add these lines here
+    console.log("EMAIL SENT SUCCESSFULLY");
+    console.log("Message ID:", info.messageId);
+    console.log("Full Response:", info);
 
     return info;
 
   } catch (error) {
-
     console.error("EMAIL SEND ERROR:", error);
-
     throw error;
-
   }
 }

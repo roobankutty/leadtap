@@ -26,7 +26,7 @@ export async function createLead(lead: Lead) {
 
     logger.info("Lead saved successfully", savedLead);
 
-    //await sendLeadNotification(lead);
+    await sendLeadNotification(lead);
 
     logger.info("Lead notification email sent successfully");
 
