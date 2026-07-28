@@ -96,11 +96,11 @@ return (
 
               <tbody>
 
-              {leads.map((lead) => (
+              {leads.map((lead, index) => (
 
                 <tr key={lead.id}>
 
-                  <td>{String(lead.id).slice(-2)}</td>
+                  <td>{leads.length - index}</td>
 
                   <td>
                     LTP - {lead.propertyId}
