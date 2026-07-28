@@ -16,7 +16,7 @@ export const fetchProperties = asyncHandler(async (req, res) => {
   };
 
   const page = Number(req.query.page) || 1;
-  const limit = Number(req.query.limit) || 10;
+  const limit = Number(req.query.limit) || 100;
 
   const result = await getProperties(filters, page, limit);
 
